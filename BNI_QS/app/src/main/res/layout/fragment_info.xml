@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginTop="15dp"
+            android:layout_width="360dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/bg_rvborder5"/>
+c
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="19dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/textColorPrimary"
+                android:layout_height="wrap_content"
+                android:text="Nama Cabang   : Sungguminasa"
+                android:textSize="17dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/textColorPrimary"
+                android:layout_height="wrap_content"
+                android:text="Jenis Layanan   : Teller"
+                android:textSize="17dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/textColorPrimary"
+                android:layout_height="wrap_content"
+                android:text="Nama Layanan    : Transfer Tunai"
+                android:textSize="17dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status Layanan Layanan    : Aktif"
+                android:textColor="@color/textColorPrimary"
+                android:textSize="17dp"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginTop="15dp"
+            android:layout_width="360dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/bg_rvborder5"/>
+
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="19dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama Cabang   : Sungguminasa"
+                android:textColor="@color/textColorPrimary"
+                android:textSize="17dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jenis Layanan   : Teller"
+                android:textColor="@color/textColorPrimary"
+                android:textSize="17dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama Layanan   : Simpan Uang"
+                android:textColor="@color/textColorPrimary"
+                android:textSize="17dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status Layanan : Aktif"
+                android:textColor="@color/textColorPrimary"
+                android:textSize="17dp"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginTop="15dp"
+            android:layout_width="360dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/bg_rvborder5"/>
+
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="19dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama Cabang   : Sungguminasa"
+                android:textColor="@color/textColorPrimary"
+                android:textSize="17dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jenis Layanan   : Teller"
+                android:textColor="@color/textColorPrimary"
+                android:textSize="17dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama Layanan  : Bayar SPP UINAM "
+                android:textColor="@color/textColorPrimary"
+                android:textSize="17dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColorPrimary"
+                android:text="Status Layanan : Tidak Aktif"
+                android:textSize="17dp"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>a
+
+
+</LinearLayout>

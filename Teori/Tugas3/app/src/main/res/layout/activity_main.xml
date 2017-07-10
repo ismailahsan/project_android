@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="ex.mcliam.tugas3.MainActivity">
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Abd. Basir Hamid"/>
+
+    <Button
+        android:id="@+id/pertama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hitung Luas"/>
+
+    <Button
+        android:id="@+id/fb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buka Facebook"/>
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Elma Ariyana H"/>
+
+    <Button
+        android:id="@+id/kedua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Konversi Mata Uang"/>
+
+    <Button
+        android:id="@+id/telfon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Telfon Andalancu"/>
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Akbar Rahman"/>
+
+    <Button
+        android:id="@+id/ketiga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kelompok 3"/>
+
+    <Button
+        android:id="@+id/kamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selfie Duluuuu"/>
+
+</LinearLayout>

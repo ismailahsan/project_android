@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pilih_lokasi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    tools:context="ex.mcliam.bni_qs.Pilih_Lokasi">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="210dp">
+
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:layout_width="290dp"
+            android:layout_height="185dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/bg_rvborder">
+        </ImageView>
+
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:id="@+id/logobni"
+            android:layout_marginTop="45dp"
+            android:layout_width="260dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="-10dp"
+            android:src="@drawable/bniqs"/>
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:id="@+id/teks1"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logobni"
+            android:text="Memberikan Pelayanan Antrian Bank,"
+            android:textColor="@color/textColorPrimary"
+            android:layout_marginLeft="20dp"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:id="@+id/teks2"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="dan Informasi Layanan Tiap Cabang"
+            android:layout_below="@+id/teks1"
+            android:textColor="@color/textColorPrimary"
+            android:layout_marginLeft="20dp"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="untuk Kemudahan Transaksi Nasabah"
+            android:layout_below="@+id/teks2"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/textColorPrimary"
+            android:textSize="15dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:src="@drawable/bg_rvborder1"
+            android:layout_height="40dp"></ImageView>
+
+        <ImageView
+            android:layout_marginTop="90dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+
+            android:src="@drawable/bg_rvborder1">
+        </ImageView>
+
+        <ImageView
+
+            android:src="@drawable/bg_rvborder1"
+            android:layout_marginTop="150dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"></ImageView>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Spinner
+                android:padding="20dp"
+                android:id="@+id/sp_kota"
+                android:entries="@array/kota"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></Spinner>
+
+            <Spinner
+                android:padding="20dp"
+                android:id="@+id/sp_cabang"
+                android:entries="@array/cabang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></Spinner>
+
+            <Spinner
+                android:padding="20dp"
+                android:id="@+id/sp_layanan"
+                android:entries="@array/layanan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></Spinner>
+
+            <Button
+                android:layout_marginTop="30dp"
+                android:onClick="lihat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lihat Info"
+                android:background="@drawable/bg_rvborder3"/>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

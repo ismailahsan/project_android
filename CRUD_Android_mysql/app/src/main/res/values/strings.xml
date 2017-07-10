@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CRUD Android (mysql)</string>
+
+    <string name="nim">NIM</string>
+    <string name="nama">Nama</string>
+    <string name="kelas">Kelas</string>
+    <string name="sesi">Sesi</string>
+    <string name="pagi">Pagi (09.00 - 12.00 WITA)</string>
+    <string name="sore">Sore (12.30 - 15.30 WITA)</string>
+    <string name="daftar">Daftar</string>
+    <string name="view">Lihat Data</string>
+    <string name="error">Kesalahan Jaringan</string>
+</resources>

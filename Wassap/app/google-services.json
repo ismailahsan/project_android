@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "95850839500",
+    "firebase_url": "https://wassap-7d895.firebaseio.com",
+    "project_id": "wassap-7d895",
+    "storage_bucket": "wassap-7d895.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:95850839500:android:38183ce889e41c31",
+        "android_client_info": {
+          "package_name": "ex.mcliam.wassap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "95850839500-jiko1tflesm74nb052fgms4pm1ad8vi9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCrYmedUVRplLEQtJYe50YT1XvhNsSO9g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

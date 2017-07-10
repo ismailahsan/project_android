@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MaterialTab</string>
+
+    <string name="hello_world">Hello World !</string>
+    <string name="action_setting">Setting</string>
+
+    <string name="tab_1">Ini tab 1</string>
+    <string name="tab_2">Ini tab 2</string>
+</resources>

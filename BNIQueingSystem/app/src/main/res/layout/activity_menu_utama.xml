@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_menu_utama"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context="ex.mcliam.bniqueingsystem.MenuUtama"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="#58000000">
+        </View>
+
+        <TextView
+            android:id="@+id/noAntrian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="65dp"
+            android:textColor="@color/textColorPrimary"
+            android:text="00"
+            android:textSize="90dp"
+            android:gravity="center"/>
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:id="@+id/spinnerCabang"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:backgroundTint="@android:color/white"
+        android:padding="5dp" />
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:id="@+id/spinnerLayanan"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:backgroundTint="@android:color/white"
+        android:padding="5dp" />
+
+    <Button
+        android:id="@+id/btnMengantri"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:onClick="btnMengantri"
+        android:text="Mengantri"/>
+
+    <TextView
+        android:id="@+id/estimasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/textColorPrimary"
+        android:text="Estimasi waktu antrian : "
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/noAntrian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/textColorPrimary"
+        android:text="00"
+        android:textSize="90dp"
+        android:gravity="center"/>
+
+</LinearLayout>
